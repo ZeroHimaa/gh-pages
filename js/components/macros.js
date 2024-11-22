@@ -86,7 +86,7 @@
         if (info.isCombo) {
           for (var comboNumber = 0; comboNumber < info.comboActions.length; comboNumber++) {
             infoList.push(_actionsByName[info.comboActions[comboNumber]]);
-          }
+          } 
         } else {
           infoList.push(info);
         }
@@ -97,12 +97,13 @@
           var line = '/ac "' + actionName + '" ';
           var time;
           if (buffs[actionFromList]) {
+            console.log(infoList.length)
             line += buffWaitString;
             time = options.buffWaitTime;
           }
           else {
             line += waitString;
-            time = options.waitTime
+            time = options.waitTime;
           }
           lines.push({text: line, time: time});
         }
@@ -119,18 +120,16 @@
       var macroTime = 0;
       var macroIndex = 1;
 
-//      macroString += '/micon\n';
+
       if (options.includeMacroLock) {
         macroString += '/macrolock\n';
           macroLineCount++;
       }
-//      Lets put this on pause until I get the correct output from the console log
-//      I don't know what the hell I am doing
-//      Maybe I did, but just didn't know I knew I what I was doing
+
       if (options.includeMicon) {
-        macroString += "/micon " + $scope.cls + " classjob\n";  // I know this should be a f-string but I am done if this works.
+        macroString += "/micon " + $translate.instant($scope.cls) + " classjob\n";
           macroLineCount++;
-        } // Obviously don't know what I'm doing!
+      }
 
       for (var j = 0; j < lines.length; j++) {
         var line = lines[j];
@@ -159,6 +158,10 @@
               macroString += '/macrolock\n';
               macroLineCount++;
             }
+            if (options.includeMicon) {
+              macroString += "/micon " + $translate.instant($scope.cls) + " classjob\n";
+                macroLineCount++;
+            }
           }
         }
       }
@@ -169,7 +172,7 @@
         }
         macroList.push({text: macroString, time: macroTime});
       }
-      console.log(options);
+//      console.log(options);
       return macroList;
     }
   }

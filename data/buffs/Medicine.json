@@ -3,7 +3,6 @@
     "control_percent": 2,
     "control_value": 40,
     "hq": false,
-    "id": "95ea832259a",
     "name": {
       "de": "Fachkenntnis-Kräuterwein",
       "en": "Commanding Craftsman's Draught",
@@ -15,7 +14,6 @@
     "control_percent": 3,
     "control_value": 50,
     "hq": true,
-    "id": "95ea832259a",
     "name": {
       "de": "Fachkenntnis-Kräuterwein",
       "en": "Commanding Craftsman's Draught",
@@ -27,7 +25,6 @@
     "control_percent": 2,
     "control_value": 34,
     "hq": false,
-    "id": "99c8f8f8de2",
     "name": {
       "de": "Artisanentrank der Fachkenntnis",
       "en": "Commanding Craftsman's Syrup",
@@ -39,7 +36,6 @@
     "control_percent": 3,
     "control_value": 42,
     "hq": true,
-    "id": "99c8f8f8de2",
     "name": {
       "de": "Artisanentrank der Fachkenntnis",
       "en": "Commanding Craftsman's Syrup",
@@ -51,7 +47,6 @@
     "control_percent": 2,
     "control_value": 20,
     "hq": false,
-    "id": "3574f8c53d8",
     "name": {
       "de": "Handwerkerlegenden-Tee",
       "en": "Commanding Craftsman's Tea",
@@ -63,7 +58,6 @@
     "control_percent": 3,
     "control_value": 25,
     "hq": true,
-    "id": "3574f8c53d8",
     "name": {
       "de": "Handwerkerlegenden-Tee",
       "en": "Commanding Craftsman's Tea",
@@ -72,10 +66,31 @@
     }
   },
   {
+    "control_percent": 2,
+    "control_value": 50,
+    "hq": false,
+    "name": {
+      "de": "Kräutertee für hehre Handwerker",
+      "en": "Commanding Craftsman's Tisane",
+      "fr": "Sérum de maîtrise",
+      "ja": "巨匠の薬液"
+    }
+  },
+  {
+    "control_percent": 3,
+    "control_value": 63,
+    "hq": true,
+    "name": {
+      "de": "Kräutertee für hehre Handwerker",
+      "en": "Commanding Craftsman's Tisane",
+      "fr": "Sérum de maîtrise",
+      "ja": "巨匠の薬液"
+    }
+  },
+  {
     "craftsmanship_percent": 2,
     "craftsmanship_value": 40,
     "hq": false,
-    "id": "f7bfd7f60b2",
     "name": {
       "de": "Facharbeiter-Kräuterwein",
       "en": "Competent Craftsman's Draught",
@@ -87,7 +102,6 @@
     "craftsmanship_percent": 3,
     "craftsmanship_value": 50,
     "hq": true,
-    "id": "f7bfd7f60b2",
     "name": {
       "de": "Facharbeiter-Kräuterwein",
       "en": "Competent Craftsman's Draught",
@@ -99,7 +113,6 @@
     "craftsmanship_percent": 2,
     "craftsmanship_value": 33,
     "hq": false,
-    "id": "92d3ba5a6d6",
     "name": {
       "de": "Artisanentrank der Effizienz",
       "en": "Competent Craftsman's Syrup",
@@ -111,7 +124,6 @@
     "craftsmanship_percent": 3,
     "craftsmanship_value": 41,
     "hq": true,
-    "id": "92d3ba5a6d6",
     "name": {
       "de": "Artisanentrank der Effizienz",
       "en": "Competent Craftsman's Syrup",
@@ -123,7 +135,6 @@
     "craftsmanship_percent": 2,
     "craftsmanship_value": 20,
     "hq": false,
-    "id": "373c88c80d3",
     "name": {
       "de": "Handwerkermeister-Tee",
       "en": "Competent Craftsman's Tea",
@@ -135,7 +146,6 @@
     "craftsmanship_percent": 3,
     "craftsmanship_value": 25,
     "hq": true,
-    "id": "373c88c80d3",
     "name": {
       "de": "Handwerkermeister-Tee",
       "en": "Competent Craftsman's Tea",
@@ -144,10 +154,31 @@
     }
   },
   {
+    "craftsmanship_percent": 2,
+    "craftsmanship_value": 50,
+    "hq": false,
+    "name": {
+      "de": "Kräutertee für behände Handwerker",
+      "en": "Competent Craftsman's Tisane",
+      "fr": "Sérum de virtuosité",
+      "ja": "名匠の薬液"
+    }
+  },
+  {
+    "craftsmanship_percent": 3,
+    "craftsmanship_value": 63,
+    "hq": true,
+    "name": {
+      "de": "Kräutertee für behände Handwerker",
+      "en": "Competent Craftsman's Tisane",
+      "fr": "Sérum de virtuosité",
+      "ja": "名匠の薬液"
+    }
+  },
+  {
     "cp_percent": 5,
     "cp_value": 17,
     "hq": false,
-    "id": "cc9aeb31e48",
     "name": {
       "de": "Fachwissen-Kräuterwein",
       "en": "Cunning Craftsman's Draught",
@@ -159,7 +190,6 @@
     "cp_percent": 6,
     "cp_value": 21,
     "hq": true,
-    "id": "cc9aeb31e48",
     "name": {
       "de": "Fachwissen-Kräuterwein",
       "en": "Cunning Craftsman's Draught",
@@ -171,7 +201,6 @@
     "cp_percent": 5,
     "cp_value": 13,
     "hq": false,
-    "id": "4fe710c87f9",
     "name": {
       "de": "Artisanentrank des Fachwissens",
       "en": "Cunning Craftsman's Syrup",
@@ -183,7 +212,6 @@
     "cp_percent": 6,
     "cp_value": 16,
     "hq": true,
-    "id": "4fe710c87f9",
     "name": {
       "de": "Artisanentrank des Fachwissens",
       "en": "Cunning Craftsman's Syrup",
@@ -195,7 +223,6 @@
     "cp_percent": 4,
     "cp_value": 10,
     "hq": false,
-    "id": "e01fa653061",
     "name": {
       "de": "Handwerkerkoryphäen-Tee",
       "en": "Cunning Craftsman's Tea",
@@ -207,12 +234,33 @@
     "cp_percent": 5,
     "cp_value": 13,
     "hq": true,
-    "id": "e01fa653061",
     "name": {
       "de": "Handwerkerkoryphäen-Tee",
       "en": "Cunning Craftsman's Tea",
       "fr": "Infusion de capacité",
       "ja": "魔匠の薬茶"
+    }
+  },
+  {
+    "cp_percent": 5,
+    "cp_value": 21,
+    "hq": false,
+    "name": {
+      "de": "Kräutertee für herausragende Handwerker",
+      "en": "Cunning Craftsman's Tisane",
+      "fr": "Sérum de capacité",
+      "ja": "魔匠の薬液"
+    }
+  },
+  {
+    "cp_percent": 6,
+    "cp_value": 27,
+    "hq": true,
+    "name": {
+      "de": "Kräutertee für herausragende Handwerker",
+      "en": "Cunning Craftsman's Tisane",
+      "fr": "Sérum de capacité",
+      "ja": "魔匠の薬液"
     }
   }
 ]

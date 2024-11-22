@@ -1,6 +1,14 @@
 {
   "Locale_Mark": "_de",
 
+  "Refined Touch": "Raffinierte Veredelung",
+  "Daring Touch": "Kühne Veredelung",
+  "Immaculate Mend": "Winkelzug",
+  "Trained Perfection": "Meisters Beitrag",
+  "Quick Innovation": "Spontane Innovation",
+  "Delicate Synthesis Mastery": "Meister der Akribischen Bearbeitung",
+  "Expedience": "Kühne Hand",
+
   "Standard Synthesis": "Solide Bearbeitung",
   "Great Strides": "Große Schritte",
   "Standard Touch": "Solide Veredelung",
@@ -202,6 +210,7 @@
   "FINISH_SOUND_INFO": "Sound effect to play at the end of the last macro.,",
   "CROSS_CLASS_INFO": "Whether to generate a separate macro that activates the necessary cross-class actions.",
   "CURRENT_CLASS_INFO": "Whether to include the current class' actions in the cross-class action activation macro.",
+  "MACRO_MICON_INFO": "Add crafter class icon to macro",
   "MACRO_LOCK_INFO": "Whether to include a macro lock command at the start of each macro.",
   "NEXT_MACRO_INFO": "When enabled, this will replace the macro end soundeffect with '/nextmacro'. This command requires the Dalamud plugin 'Macro Chain' to work.",
   "SPECIFY_SEED": "Specify Seed",
